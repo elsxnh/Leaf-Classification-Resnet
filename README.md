@@ -10,9 +10,7 @@ This repository is created to fulfill the bootcamp Computer Vision final project
 
 Traffic congestion is a major issue in urban areas, leading to increased travel times, pollution, and accidents. The goal of TrafficNet is to utilize advanced computer vision techniques, particularly image segmentation, to analyze and understand roads and obstacles in real-time. The ultimate objective is to contribute to the development of self-driving cars powered by artificial intelligence, capable of efficiently navigating through congested city streets.
 
-![Example](https://www.intelligenttransport.com/wp-content/uploads/self-driving-1.jpg)
-
-The objectives of this agricultural solution theough the classification of leaves include:
+The objectives of this agricultural solution through the classification of leaves include:
 
 1. Early Detection: Enable farmers to identify plant health issues at their early stages, facilitating timely intervention.
 
@@ -22,17 +20,17 @@ The objectives of this agricultural solution theough the classification of leave
 
 ## Dataset
 
-This dataset was about a condition that india recently had because they experience loses 35% of the annual crop yield due to plant disease. This dataset provides some information about the condition of healthy and diseased leaf. 
-- This dataset was divided into 2 partition Train and Test
-- Every partition has 27 classes that represent every leaf conditions.
-- Every class DO NOT HAVE same number of images.
+This dataset was about a condition that India recently had because they experienced a loss of 35% of the annual crop yield due to plant disease. This dataset provides some information about the condition of healthy and diseased leaves. 
+- This dataset was divided into 2 partitions Train and Test
+- Every partition has 27 classes that represent every leaf condition.
+- Every class DO NOT HAVE the same number of images.
 
 ![Dataset](Example.png)
 ![Dataset](Pictures_per_category.png)
 
 ## Model Architecture
 
-After we did cleanse our data and add transformation process such as augmentation, next we put our data into model to train our system to identify which images belongs to 1 of 27 leaf class.
+After we cleanse our data and add a transformation process such as augmentation, next we put our data into a model to train our system to identify which images belong to 1 of 27 leaf class.
 
 ## Results 
 
@@ -42,7 +40,7 @@ After we did cleanse our data and add transformation process such as augmentatio
 ### Streamlit Implementation
 https://plant-disease-detection-indonesiaai.streamlit.app/
 
-
+![Dataset](https://github.com/elsxnh/Leaf-Classification-Resnet/blob/0c4a3cf60a6a5d97430d96dee8ffd86dd951d0b4/Streamlit.jpg)
 
 ## Implementation Details
 
